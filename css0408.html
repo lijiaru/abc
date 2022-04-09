@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>儒的網站</title>
+    </head>
+    <body style="height: 1500px;">
+            <!--position位置-->
+        <h1>CSS教學</h1>
+        <!--固定在畫面position:fixed;右上角-->
+        <div style="position:fixed; right:0px; top:0px; width:80px; height:80px; background-color:blue"></div>
+        <div style="width:120px; height:120px; background-color:red;"></div>
+        <!--相對定位-->
+        <div style="position:relative; right:10px; top:30px; width:80px; height:80px; background-color:blue"></div>
+        <div style="width:120px; height:120px; background-color:red;"></div>
+        <br/>
+        <!--3個div 中層相對定位,則第三層絕對定位可在裡面下左右-->
+        <div style="padding:30px; border:5px solid red;">
+            <div style="position:relative; padding:30px; border:5px solid red;">
+                <!--絕對定位position:absolute; top:0px; left:0px;固定在畫面左上角,但不會漂浮-->
+                <div style="position:absolute; top:0px; left:0px; width:40px; height:40px; background-color:blue;"></div>
+            </div>
+    </body>
+</html>
