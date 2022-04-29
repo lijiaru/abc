@@ -52,7 +52,7 @@ else{
     document.write("你給我100元");
 }
 */
-function max_num(num1,num2,num3){
+/*function max_num(num1,num2,num3){
     if(num1>=num2 &&num1>=num3){
         return num1;
     }
@@ -64,3 +64,12 @@ function max_num(num1,num2,num3){
     }
 }
 document.write(max_num(9,70,5));
+*/
+//物件
+var person = {
+    name:"小儒",
+    age:33,
+    is_male:false
+};
+
+document.write(person.is_male);
